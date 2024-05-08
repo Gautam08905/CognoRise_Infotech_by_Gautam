@@ -6,7 +6,7 @@ root.title("CALCULATOR!!")
 root.configure(bg="#03506F")
 root.geometry("475x750")
 #root.resizable(False,False)
-root.iconbitmap("C:\\Gautam 58\\Code\\tkintercourse\\cogno\\Calculator-icon.ico")
+root.iconbitmap("Calculator-icon.ico")
 
 def click(event):
     txt=event.widget.cget("text")
